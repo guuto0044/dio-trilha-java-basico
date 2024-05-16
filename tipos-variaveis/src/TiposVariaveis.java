@@ -5,11 +5,18 @@ public class TiposVariaveis {
 
         short numeroCurto = 1;
 
+        final double VALOR_DE_PI = 3.14;
+
         int numero = 5;
 
-        System.out.print(numero);
+        System.out.println(numero); // numero = 6
 
-        final double VALOR_DE_PI = 3.14;
+        // numero = numero + 1
+
+        System.out.println(++ numero); // numero = 6
+
+        System.out.println(numero); // numero = 6
+        
 
 
 
